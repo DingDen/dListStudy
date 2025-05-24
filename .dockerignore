@@ -1,0 +1,24 @@
+# Diretório do build Maven (não copiar para dentro da imagem)
+target/
+
+# Configurações do IDE IntelliJ IDEA
+.idea/
+*.iml
+
+# Pastas do sistema e arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Diretório Git e arquivos relacionados
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# Arquivos de configuração locais que não devem ir para a imagem
+application.properties
+application.yml
+
+# Se tiver front-end Node.js, ignorar node_modules
+node_modules/
