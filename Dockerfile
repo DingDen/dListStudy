@@ -4,6 +4,9 @@ WORKDIR /app
 
 COPY . .
 
+# Dá permissão de execução ao mvnw
+RUN chmod +x mvnw
+
 # Usa o wrapper do Maven para compilar e empacotar o projeto
 RUN ./mvnw clean package -DskipTests
 
